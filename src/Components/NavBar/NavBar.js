@@ -61,6 +61,3 @@ const NavBar = () => {
 
 export default NavBar;
 
-// principal dif de componentes de clases y funcionales: componente de clase puede manejar un estado propio y el componente funcional no puede. Crearon los hooks para poder utilizar el estado
-// rafce : componente funcional
-// react fragment <> </> por q los componentes deben retornar solo un elemento es como un div para encapsular todo y q me permita tener hermanos.

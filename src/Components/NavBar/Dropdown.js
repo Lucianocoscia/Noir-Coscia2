@@ -19,8 +19,3 @@ function BasicExample() {
 }
 
 export default BasicExample;
-
-// <NavLink  to={"/products"}>Ver todos</NavLink>
-// <NavLink to={"/category/Abrigos"}>Abrigos</NavLink>
-// <NavLink  to={"/category/Pantalones"}>Pantalones</NavLink>
-// <NavLink  to={"/category/Remeras"}>Remeras</NavLink>

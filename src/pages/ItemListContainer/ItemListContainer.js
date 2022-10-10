@@ -66,22 +66,3 @@ const ItemListContainer = () => {
 
 export default ItemListContainer;
 
-/*     const getProducts = new Promise((resolve, reject) => {
-        setTimeout(() => {
-        resolve(data);
-        }, 2000);
-    }); */
-
-/*     useEffect(() => {
-        getProducts
-        .then((response) => {
-            if (categoryName) {
-            setProductList(
-                response.filter((item) => item.category === categoryName)
-            );
-            } else {
-            setProductList(response);
-            }
-        })
-        .catch((error) => console.log(error));
-    }, [categoryName]); */

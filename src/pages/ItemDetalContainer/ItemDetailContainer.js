@@ -48,19 +48,3 @@ const ItemDetailContainer = () => {
 
 export default ItemDetailContainer;
 
-// Apuntes traer prodcs con mockdata
-
-/*     useEffect(() => {
-        getItem
-        .then((response) => {
-            setProductDetail(response.find((item) => item.id === id));
-        })
-        .catch((error) => console.log(error));
-    }, []);
-
-    const getItem = new Promise((resolve) => {
-        setTimeout(() => {
-        resolve(data);
-        }, 5000);
-        // resolve(data);
-    }); */

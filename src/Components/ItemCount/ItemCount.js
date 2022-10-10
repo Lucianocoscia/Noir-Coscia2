@@ -36,8 +36,3 @@ const ItemCount = ({ stock, setCount, count }) => {
 };
 
 export default ItemCount;
-
-  // const  [items, setItems] = useState(0);
-
-  // const suma = () => items < stock ? setItems(items + 1) : alert('Se alcanzo el limite de stock');
-  // const resta = () => items > 0 ? setItems(items - 1) : alert('No se pueden meter valores negativos');

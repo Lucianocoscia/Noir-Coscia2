@@ -70,21 +70,3 @@ const CartProvider = ({ children }) => {
 
 export default CartProvider;
 
-// Apuntes
-
-/*   const isInCart = (id) =>{
-      // si es true or false juntarlo o no, para q no haya duplicados
-      return cart.some((item) => item.id === id) // el some retorna un true or false 
-  } */
-
-/*     useEffect(()=>{ // controlo el montado del Console.log
-      console.log(cart);
-    }, [cart]); */ // Q se ejecute cada vez q se actualiza el cart. Se ejecuta por default y no se actualiza si no le paso dependecia
-
-    /*     let nuevoArreglo = [];
-    cart.forEach((product) => {
-      if (product.id !== productId) {
-        nuevoArreglo.push(product);
-      }
-    }); */
-    // setCart(nuevoArreglo);
