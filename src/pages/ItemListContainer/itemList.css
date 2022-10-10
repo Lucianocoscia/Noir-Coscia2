@@ -1,0 +1,45 @@
+.grid_productos{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(1,1fr); */
+    column-gap: 1rem;
+    row-gap: 3rem;
+    margin-bottom: 4rem;
+}
+.card{
+    border: none;
+    border-radius: 2px;
+    transition: .4s ease-in-out;
+    overflow: hidden;
+    box-shadow: 2px 6px 3px 3px rgb(0 0 0 / 30%);
+}
+.card_img:hover{
+    transform: scale(1.03);
+}
+
+.grid_portada{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 3rem;
+}
+.img_portada{
+    height: 80vh;
+    width: 100%;
+}
+.decoration1{
+    text-decoration: none;
+    color: black;
+}
+.decoration1:hover{
+    color: black;
+}
+.contenedor-spinner-1{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    top: 50%;
+    left: 50%;
+
+}

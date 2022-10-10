@@ -1,0 +1,33 @@
+.contenedor-registro{
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor-form-registro{
+    width: 600px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor-form-registro label{
+    padding-bottom: 0.5rem;
+}
+.contenedor-form-registro input{
+    margin-bottom: 0.5rem;
+}
+.titulo-registro{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.enlace-registro{
+    color: black;
+    text-decoration: none;
+}
+.enlace-registro:hover{
+    color: black;
+    opacity: 0.6;
+}

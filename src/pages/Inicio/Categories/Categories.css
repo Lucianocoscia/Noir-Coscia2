@@ -1,0 +1,66 @@
+.grid_categorias{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 350px;
+    column-gap: 1rem;
+    margin-bottom: 3rem;
+}
+.grid_sales{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px;
+    column-gap: 1rem;
+    margin-bottom: 3rem;
+
+}
+.grid_categorias_hijo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.grid_categorias_hijo-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url(../../../../public/images/puffer3.png) ;
+    overflow: hidden;
+}
+.grid_categorias_hijo-1:hover, .grid_categorias_hijo-2:hover, .grid_categorias_hijo-3:hover{
+    transform: scale(1.04);
+}
+.grid_categorias_hijo-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url(../../../../public/images/pant3.jpg) ;
+}
+.grid_categorias_hijo-3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../../../../public/images/remera1.jpg) ;
+}
+.grid_categorias_hijo-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url(../../../../public/images/tienda-ropa.jpg) ;
+}
+.grid_categorias_hijo-5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url(../../../../public/images/portada2.jpg) ;
+    
+}
+.texto_img{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.button_img{
+    padding: 9px 12px;
+    text-transform: uppercase;
+    background-color:#000;
+    border: none;
+    margin-top: 1rem;
+    color: #fff;
+    transition: .4s;
+}
+.button_img:hover{
+    background-color:#1A1C1A ;
+}

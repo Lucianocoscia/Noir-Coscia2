@@ -1,0 +1,25 @@
+.div__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.button1{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    font-size: 1rem;
+}
+.div__button span{
+    font-size: 1rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.card_numero_contador{
+    text-align: center;
+    font-weight: bold;
+}
