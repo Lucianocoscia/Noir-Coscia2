@@ -1,5 +1,78 @@
+.grid-principal{
+    display: grid;
+    grid-template-columns: 200px 500px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    padding: 1rem;
+}
+.hr-cart{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.grid-hijo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.div-detalle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.div-precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.contenedor-principal-total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 80%;
+
+}
+.contenedor-totales{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flex-column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 80%;
+}
+.terminar-compra{
+    width: 100%;
+    border: none;
+    background-color: #000;
+    transition: .4s ease-in-out;
+    padding: 10px;
+    color: #fff;
+}
+.terminar-compra:hover{
+    background-color:rgba(0, 0, 0, 0.689) ;
+}
 .link-seguir-comprando{
-    color: black;
+    color: #5046E5;
     text-decoration: none;
     transition: .4s ease-in-out;
     margin-right: 1rem;
@@ -9,12 +82,38 @@
     opacity: 0.7;
     text-decoration: underline;
 }
-.contenedor-boton-orden{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.boton-eliminar{
+    padding: 5px 8px;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+    color: #fff;
+    transition: .4s ease-in-out;
 }
+.boton-eliminar:hover{
+    background-color:darkred;
+}
+
+
+
+.cart-id{
+    font-style: italic;
+    
+}
+.cart-precio{
+    font-weight: bold;
+}
+
+.boton-cerrar-modal{
+    padding: 5px 8px;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+    color: #fff;
+    transition: .4s ease-in-out;
+    border-radius: none;
+}
+
 .boton-crear-orden{
     padding: 9px 12px;
     text-transform: uppercase;
@@ -27,58 +126,47 @@
     background-color:rgba(0, 0, 0, 0.689) ;
 }
 
-.boton-eliminar{
-    padding: 9px 12px;
-    text-transform: uppercase;
-    background-color: red;
-    border: none;
-    color: #fff;
-    transition: .4s ease-in-out;
+@media screen and (max-width:1023px) {
+
+    .grid-principal{
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 0;
+    }
+    .grid-hijo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .grid-hijo2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .div-detalle{
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+    }
 }
-.boton-eliminar:hover{
-    background-color:darkred;
-}
-.contenedor-boton-eliminar{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
-}
-.contenedor-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f6f6f6;
-    box-shadow: 2px 6px 3px 3px rgb(0 0 0 / 30%);
-    /* position: absolute; */
-    height: 500px;
-    width: 750px;
-    transform: translateY(-500px);
-    visibility: hidden;
-}
-.contenedor-form-active{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f6f6f6;
-    box-shadow: 2px 6px 3px 3px rgb(0 0 0 / 30%);
-    height: 500px;
-    width: 750px;
-    visibility: visible;
-    transition: .4s ease-in-out;
-    position: relative;
-}
-.cerrar-modal{
-    position: absolute;
-    right: 0;
-    top: 0;
-    cursor: pointer;
-    margin-right: 0.5rem;
-}
-.contenedor-botones{
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width:600px) {
+
+    .grid-principal{
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 0;
+    }
+    .grid-hijo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .grid-hijo2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .div-detalle{
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+    }
 }

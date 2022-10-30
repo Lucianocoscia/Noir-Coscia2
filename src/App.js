@@ -37,7 +37,7 @@ function App() {
             <Route path="detail/:id" element={<ItemDetailContainer />} />
             <Route
               path="contact"
-              element={<div style={{ height: "65vh" }}> <Contacto /> </div>}
+              element={<div > <Contacto /> </div>}
             />
             <Route path="login" element={<Login />} />
             <Route path="registro" element={<Registro />} />

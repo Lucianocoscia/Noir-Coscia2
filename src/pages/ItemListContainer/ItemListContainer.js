@@ -40,6 +40,7 @@ const ItemListContainer = () => {
     setTimeout(() => {
       setLoader(false);
     }, 1000)
+    window.scrollTo(0,0);
   });
 
   if(loader){

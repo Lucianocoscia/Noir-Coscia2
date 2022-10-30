@@ -13,7 +13,7 @@ const CartWidget = () => {
         <button className="carrito button_Cart">
           {" "}
           <AiOutlineShoppingCart />
-          <span>{cart.length}</span>
+          <span className="span-cart-mobile">{cart.length}</span>
         </button>
       </>
     );

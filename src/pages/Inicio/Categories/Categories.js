@@ -13,7 +13,7 @@ const Categories = () => {
     <div className='container'>
                     <div className='grid_portada'>
                         <img className='img_portada' src={portada1} alt=''/>
-                        <img className='img_portada'  src={portada2} alt=''/>
+                        <img className='img_portada img-none'  src={portada2} alt=''/>
                         <img className='img_portada'  src={portada} alt=''/>
                     </div>
     </div>

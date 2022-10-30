@@ -1,5 +1,5 @@
 .contenedor-registro{
-    min-height: 65vh;
+    height: 65.6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,4 +30,27 @@
 .enlace-registro:hover{
     color: black;
     opacity: 0.6;
+}
+
+@media screen and (max-width:600px) {
+
+    .contenedor-form-registro{
+        width: 80%;
+    }
+    .titulo-registro{
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .contenedor-registro{
+        height: 100%;
+    }
+    .contenedor-form-registro{
+        width: 80%;
+    }
+    .titulo-registro{
+        font-size: 16px;
+        margin-top: 2rem;
+    }
 }

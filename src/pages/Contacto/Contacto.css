@@ -1,9 +1,11 @@
 .grid-contacto{
+    height: 61.5vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     column-gap: 1rem;
     padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 .enlaces-contacto:hover{
     cursor: pointer;
@@ -37,4 +39,13 @@
 }
 .contenedor-form-contacto input{
     margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:600px) {
+    .grid-contacto{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        margin-bottom: 2rem;
+        height: 100%;
+    }
 }
