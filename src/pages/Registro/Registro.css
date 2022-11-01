@@ -1,5 +1,5 @@
 .contenedor-registro{
-    height: 65.6vh;
+    min-height: 67vh;
     display: flex;
     justify-content: center;
     align-items: center;
